@@ -6,7 +6,7 @@ import {BiBook} from 'react-icons/bi';
 import {FaServicestack} from 'react-icons/fa';
 import {AiOutlineContacts} from 'react-icons/ai';
 import {useState} from 'react';
-const nav = () => {
+const Nav = () => {
 const [activeNav, setActiveNav] = useState('#');
   return (
   <nav>
@@ -20,4 +20,4 @@ const [activeNav, setActiveNav] = useState('#');
   </nav>
   )
 }
-export default nav;
+export default Nav;
